@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is my html & css site">
+    <meta name="keyword" content="html,css,site,ui">
+    <link rel="stylesheet" href="./lib/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./css/mobile.css">
+    <title>css-project2</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+            <div class="container ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">خانه</a>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      محصولات
+                    </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">محصولات 1</a></li>
+                                    <li><a class="dropdown-item" href="#">محصولات2</a></li>
+
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">محصولات3</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="./about.html" tabindex="-1" aria-disabled="true">درباره ما</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="./contact.html" tabindex="-1" aria-disabled="true">تماس با ما</a>
+                            </li>
+                    </ul>
+                    <a href="./index.html" class="navbar-brand "><span class="logo-primary"> Logo</span>.ir</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section>
+        <div class="container mt-4 mt-sm-0">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="mb-3 fw-bold ">تابستان </h2>
+                    <h3 class="text-primary fw-bold mb-4">محصولات تابستان</h3>
+                    <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam in minima atque commodi modi nisi tenetur quod maiores. Dicta, animi!</p>
+                    <button type="button" class="btn btn-lg btn-primary border-0 mt-3">تایید</button>
+                    <button type="button" class="btn btn-lg btn-outline-secondary  mt-3">انصراف</button>
+
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img class="img-fluid" src="./doc/pic/Watermelon_Outline.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="home-info" class="d-flex flex-row-reverse">
+        <div class="info-img w-50">
+            <img src="" alt="">
+        </div>
+        <div class="text-center w-50 mt-4">
+            <h2>Lorem, ipsum.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, molestias!</p>
+            <a class="btn fw-bold rounded-3 p-3 mx-auto" href="">Lorem, ipsum.</a>
+
+        </div>
+
+    </section>
+    <section id="featurs" class="bg-light">
+        <div class="container m-auto overflow-auto px-3">
+            <h1 class="text-center m-4">Lorem, ipsum.</h1>
+            <div class="items p-3 d-flex">
+                <div class="item text-center p-3">
+                    <div>
+                        <span class="d-flex flex-column rounded-circle  justify-content-center">
+                            <i class="fas fa-layer-group  fa-3x"></i>
+                        </span>
+                    </div>
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum repellendus cumque omnis repudiandae atque aperiam inventore perferendis adipisci quo aut.</p>
+                </div>
+                <div class="item text-center p-3">
+                    <div>
+                        <span class="d-flex flex-column rounded-circle justify-content-center">
+                            <i class="fas fa-window-restore  fa-3x"></i>
+                        </span>
+                    </div>
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum repellendus cumque omnis repudiandae atque aperiam inventore perferendis adipisci quo aut.</p>
+                </div>
+                <div class="item text-center p-3">
+                    <div>
+                        <span class="d-flex flex-column rounded-circle justify-content-center">
+                            <i class="fas fa-code  fa-3x "></i>
+                        </span>
+                    </div>
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum repellendus cumque omnis repudiandae atque aperiam inventore perferendis adipisci quo aut.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="d-flex main-footer py-4">
+        <div>
+            <p>Copyright &copy; 2021</p>
+        </div>
+        <div>
+            <a href="instagram.com"><i class="fab fa-instagram fa-2x p-2"></i></a>
+            <a href="telegram.com"><i class="fab fa-telegram fa-2x p-2"></i></a>
+
+            <a href="twitter.com"><i class="fab fa-twitter fa-2x p-2"></i></a>
+            <a href="youtube.com"><i class="fab fa-youtube fa-2x p-2"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="./lib/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+</html>

@@ -1,0 +1,52 @@
+@media screen and (max-width:500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0.25rem;
+    }
+    #navbar .logo {
+        margin-top: 1rem;
+        margin-bottom: 0.2rem;
+        text-align: center;
+    }
+    #navbar ul {
+        text-align: center;
+        flex-direction: column;
+        /* padding: 0.2rem; */
+        width: 100%;
+    }
+    #navbar ul li {
+        width: 100%;
+    }
+    #navbar ul li a {
+        padding: 0.5rem 0;
+        display: block;
+        width: 100%;
+    }
+}
+
+#featurs .items {
+    display: block;
+}
+
+.showcase {
+    height: 100%;
+}
+
+#home-info .info-img {
+    display: none;
+}
+
+#home-info .info-content {
+    text-align: center;
+    width: 100%;
+}
+
+.contact-form {
+    padding: 1.25rem;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column-reverse;
+}
