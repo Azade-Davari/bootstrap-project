@@ -71,6 +71,11 @@ html {
     color: #fff;
 } */
 
+.card-primary {
+    background: #1b2a4e;
+    color: white;
+}
+
 #home-info {
     height: 15rem;
 }
